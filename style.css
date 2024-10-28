@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+.noto-sans-txt {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:350;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.hdrmn {
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}
+
+.hdrinfo {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./resources/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hdrpt {
+    width: 70%;
+    height: 80%;
+    display: flex;
+}
+
+.hdrdsp {
+    height: 100%;
+    width: 50%;
+}
+
+.hdrdspmn{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    gap: 0.5rem;
+    padding-bottom: 2rem;
+    transition: 0.3s;
+}
+
+.hdrdspmn h1{
+    font-size: 3rem;
+    transition: 0.3s;
+}
+
+.hdrdspmn h3{
+    transition: 0.3s;
+}
+
+.hdrdspmn h3:hover{
+    color: rgba(34,110,147,1);
+    transition: 0.3s;
+    cursor:default;
+}
+
+.hdrdspmn h1:hover{
+    color: rgba(34,110,147,1);
+    transition: 0.3s;
+    cursor:default;
+}
+
+.hdrdspnf{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 50%;
+    gap: 0.8rem;
+}
+
+.hdrdspnf p {
+    cursor: default;
+}
+
+.hdrimg{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hdrimg img{
+    max-width: 70%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.hdrimg img:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+.about{
+    width: 100vw;
+    height: 100vh;
+}
